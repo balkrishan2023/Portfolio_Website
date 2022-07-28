@@ -1,0 +1,52 @@
+.card3{
+    width: 8rem;
+    height: 12rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0,5rem;
+    align-items: center;
+    text-align: center;
+    background: rgb(252, 252, 252);
+    border: 7px solid orange;
+    border-radius: 20px;
+    color: grey;
+}
+.card3 img{
+    max-height: 5rem;
+    max-width: 5rem;
+    
+}
+.card3 span:nth-of-type(1){
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 0.3rem;
+}
+.card3 span:nth-of-type(2){
+    font-size: 16px;
+    }
+.card3 button{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 1rem;
+    font-size: 16px;
+    border: none;
+    color: blue;
+    padding: 3px 25px;
+}
+.card3 button:hover{
+    cursor: pointer;
+    background: rgb(243, 231, 208);
+    color: rgb(87, 37, 73);
+    border: 2px solid plum;
+}
+.card3{
+    top: 19rem;
+    right: -28rem;
+}
+@media screen and (max-width: 480px){
+    .card3{
+        left: 3rem;
+        margin-top: 10rem;
+    }
+}

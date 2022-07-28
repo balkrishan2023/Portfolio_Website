@@ -1,0 +1,81 @@
+.Services{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 9rem;
+    margin-top: 9rem;
+    
+}
+.l-services{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin-top: 4rem;
+    color: grey;
+}
+
+.l-services :nth-child(1){
+    font-size:  0.5rem;
+    font-weight: bold;
+    color: rgb(45, 10, 10);
+
+}
+.l-services :nth-child(2){
+    font-size:  2.5rem;
+    font-weight: bold;
+    color: grey;
+}
+
+.l-services :nth-child(3){
+    font-size: 2.5rem;
+  color: rgb(251, 191, 39);
+  font-weight: bold;
+    
+}
+.l-services :nth-child(4){
+    font-size: 0.9rem;
+  color: rgb(77, 76, 72);
+  
+    
+}
+.s-btn{
+    margin-top: 2rem;
+max-width: 8rem;
+font-size: 1rem;
+}
+.r-services{
+    position: relative;
+}
+.blur3{
+    position: absolute;
+    width: 17rem;
+    height: 27rem;
+    border-radius: 50%;
+    background: rgb(220, 154, 220);
+    filter: blur(177px);
+    z-index: -9;
+    top: 180%;
+    left: 15%;
+}
+.blur4{
+    position: absolute;
+    width: 17rem;
+    height: 27rem;
+    border-radius: 50%;
+    background: rgb(155, 183, 240);
+    filter: blur(177px);
+    z-index: -9;   
+}
+
+@media screen and (max-width: 480px){
+    .Services{
+        margin-top: 30rem;
+        flex-direction: column;
+        gap: 5rem;
+        padding: 0;
+    }
+   .r-services{
+    flex-direction: column;
+    
+   }
+}

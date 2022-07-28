@@ -1,0 +1,34 @@
+.footer{
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+    display:flex ;
+    align-items: center;
+    position: relative;
+}
+.f-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6rem;
+    gap: 1rem;
+    color: white;
+}
+.f-icon{
+    display: flex;
+    gap: 3rem;
+}
+.copyright{
+    margin-top: 3rem;
+}
+@media screen and (max-width: 480px){
+    .f-icon{
+        gap: 1rem;
+        transform: scale(0.7);
+    }
+    .copyright{
+        margin-top: 0.4rem;
+    }
+}

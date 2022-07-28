@@ -1,0 +1,66 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    justify-items: center;
+}
+.p-text{
+    text-align: center;
+    
+}
+.p-text :nth-child(1){
+    
+    font-weight: bold;
+    color: grey;
+    font-size: 1.5rem;
+}
+.p-text :nth-child(3){
+    
+    font-weight: bold;
+    color: rgb(220, 160, 19);
+    font-size: 3rem;
+}
+.p-image{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+.p-image img{
+    height: 7rem;
+    width: 12rem;
+    border: 5px solid rgb(82, 80, 80);
+}
+.p-blur{
+    position: absolute;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    background: rgb(2, 0, 3);
+    filter: blur(177px);
+    z-index: -9;
+    
+}
+.p-blur-r{
+    position: absolute;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    background: rgb(2, 0, 3);
+    filter: blur(177px);
+    z-index: -9;
+    right: 2rem;
+}
+@media screen and (max-width: 480px){
+ .portfolio{
+    flex-direction: column;
+ }  
+ .p-text{
+    text-align: left;
+ } 
+ .p-image{
+    flex-direction: column;
+ }
+}

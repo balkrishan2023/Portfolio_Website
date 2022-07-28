@@ -1,0 +1,55 @@
+.Experiance {
+    position: relative;
+    display: flex;
+    margin-top: 16rem;
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.achievement {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem;
+}
+
+.circle {
+    position: relative;
+    height: 3rem;
+    width: 4rem;
+    border-radius: 100%;
+    background: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+    background-image: linear-gradient(aqua 0%,orange 100%);
+    border: none;
+}
+.circle{
+ 
+}
+.achievement :nth-child(3){
+    color: orange;
+font-weight: bold;
+}
+.achievement :nth-child(2){
+    font-weight: bold;
+color: grey;
+}
+
+@media screen and (max-width: 480px){
+    .Experiance{
+        flex-direction: column;
+        margin-top: 45rem;
+        gap: 1.5rem;
+        left: -2rem;
+    }
+    .achievement{
+        
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

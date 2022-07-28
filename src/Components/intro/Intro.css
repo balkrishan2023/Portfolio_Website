@@ -1,0 +1,119 @@
+.intro{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left{
+    display: flex;
+    flex: 1;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.i-name :nth-child(1){
+    color: rgb(118, 110, 110);
+    font-family: bold;
+    font-size: 3rem;
+}
+.i-name :nth-child(2){
+    color: orange;
+    font-family: bold;
+    font-size: 3rem;
+}
+.i-name :nth-child(3){
+    font-weight: 100;
+    color: grey;
+    margin-top: 10px;
+}
+.i-btn{
+    width: 6rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.i-icon{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+.i-icon *{
+max-width: 5vh;
+height: auto;
+gap: 1rem;
+}
+.i-icon *:hover{
+   cursor: pointer;
+    }
+
+.i-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.i-right *{
+    position: absolute;
+    z-index: 1;
+    color: grey;
+}
+.i-right :nth-child(1){
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+
+}
+.i-right :nth-child(2){
+    top: -14.6%;
+    transform: scale(0.67);
+    left: -3rem;
+}
+.i-right :nth-child(3){
+ transform: scale(1.4);
+ left: 28%;   
+}
+.i-right :nth-child(4){
+    transform: scale(0.5);
+    left: -16%;
+       top: -20%;
+   }
+.blur{
+    position: absolute;
+    width: 17rem;
+    height: 27rem;
+    border-radius: 50%;
+    background: rgb(172, 108, 235);
+    filter: blur(177px);
+    z-index: -9;
+    top: -20%;
+    left: 47%;
+}
+.blur1{
+    position: absolute;
+    width: 17rem;
+    height: 27rem;
+    border-radius: 50%;
+    background: rgb(153, 232, 24);
+    filter: blur(177px);
+    z-index: -9;
+    bottom: -27%;
+    left: -7%;
+}
+
+@media screen and (max-width: 480px){
+    .intro{
+        flex-direction: column;
+        gap: 4rem;
+    }
+   
+    .i-right{
+        transform: scale(0.6);
+        left: -4rem;
+        
+    }
+}

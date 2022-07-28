@@ -1,0 +1,22 @@
+
+.floatingimg {
+   width: 14rem;
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-radius: 17px;
+    height: 4.5rem;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.floatingimg>img {
+    max-width: 5rem;
+    margin: -4px 50px;
+}
+.floatingimg span{
+    font-size: 33px;
+    justify-content: center;
+    margin: 13px 139px;
+    padding-left: 20px;
+}
